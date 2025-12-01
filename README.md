@@ -3,7 +3,7 @@
 A simple and efficient *Sudoku Solver* that fills a 9x9 Sudoku grid using a backtracking algorithm. The solver validates constraints in real time and produces a completed puzzle if a valid solution exists.
 
 
-##🌟 Features
+## 🌟 Features
 
 •Solves any valid 9×9 Sudoku puzzle
 
@@ -44,7 +44,7 @@ This guarantees a solution for all valid Sudoku puzzles.
 
 
 
-## Future Enhancement
+## 📊Future Enhancement
 
 * Puzzle generator
 
