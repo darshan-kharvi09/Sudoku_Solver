@@ -1,7 +1,7 @@
 # 🧩Sudoku Solver
 
 A simple and efficient *Sudoku Solver* that fills a 9x9 Sudoku grid using a backtracking algorithm. The solver validates constraints in real time and produces a completed puzzle if a valid solution exists.
-
+____________________________________
 
 ## 🌟 Features
 
@@ -18,7 +18,7 @@ A simple and efficient *Sudoku Solver* that fills a 9x9 Sudoku grid using a back
 •Easy to extend or integrate into larger applications
 
 
-
+____________________________________
 
 ## 🤖 How It Works
 
@@ -42,7 +42,7 @@ The solver uses *backtracking*, a depth-first search strategy:
 
 This guarantees a solution for all valid Sudoku puzzles.
 
-
+____________________________________
 
 ## 📊Future Enhancement
 
@@ -52,6 +52,8 @@ This guarantees a solution for all valid Sudoku puzzles.
 
 * Step-by-step visual solver
 
-##📝 License
+____________________________________
+
+## 📝 License
 
 This project is released under the *MIT License*, allowing open use and modification.
