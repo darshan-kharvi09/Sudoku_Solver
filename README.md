@@ -3,7 +3,7 @@
 A simple and efficient *Sudoku Solver* that fills a 9x9 Sudoku grid using a backtracking algorithm. The solver validates constraints in real time and produces a completed puzzle if a valid solution exists.
 
 
-## Features
+##🌟 Features
 
 •Solves any valid 9×9 Sudoku puzzle
 
@@ -19,32 +19,39 @@ A simple and efficient *Sudoku Solver* that fills a 9x9 Sudoku grid using a back
 
 
 
-## Project Structure
 
-sudoku-solver/
+## 🤖 How It Works
 
-solver.py
+The solver uses *backtracking*, a depth-first search strategy:
 
-#
+1. Find the next empty cell (denoted by 0 or.).
 
-Core backtracking solver logic
+2. Try digits 1 through 9.
 
-board.py
+3. Check if the digit is valid:
 
-#
+* Not repeated in the row
 
-Sudoku board utilities
+* Not repeated in the column
 
-(optional)
+* Not repeated in the 3×3 subgrid
 
-main.py
+4. If valid continue place the number and
 
-#
+5. If none fit backtrack to previous cell
 
-Run solver on a sample grid
+This guarantees a solution for all valid Sudoku puzzles.
 
-README.md
 
-#
 
-Documentation
+## Future Enhancement
+
+* Puzzle generator
+
+* Difficulty analysis
+
+* Step-by-step visual solver
+
+##📝 License
+
+This project is released under the *MIT License*, allowing open use and modification.
